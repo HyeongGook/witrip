@@ -6,5 +6,55 @@
 .content {
   width: 60vw;
   height: 100vh;
-  background-color: red;
+  max-width: 500px;
+  max-height: 900px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.titleContainer {
+  width: 100%;
+  height: 20%;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.title {
+  font-size: 2.3rem;
+  height: 50%;
+  font-weight: 600;
+}
+.explainContainer {
+  width: 100%;
+  height: 35%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.explain {
+  font-size: 1.7rem;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+.couponContainer {
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.coupon {
+  width: 80%;
+  height: 50%;
+  background-color: rgb(247, 247, 229);
+  color: black;
+  border-color: black;
+  border-radius: 1px;
+  font-size: 1.5rem;
+  font-family: "NanumSquare";
 }

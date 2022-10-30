@@ -1,5 +1,7 @@
 import { useState } from "react";
 import styles from "../styles/Main.module.css";
+import Image from "next/image";
+import logo from "../public/src/logo.png";
 const Main = () => {
   const [copyCoupon, setCopy] = useState("EH2DSK8SJDKS7SJDLS4SJD3SDM9");
   const [isCopy, setIsCopy] = useState(false);
@@ -13,6 +15,9 @@ const Main = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
+        <div className={styles.imageContainer}>
+          <Image className={styles.image} src={logo} />
+        </div>
         <div className={styles.titleContainer}>
           <p className={styles.title}>우리끼리, 위트 있는 여행{`\n`}witrip</p>
         </div>
